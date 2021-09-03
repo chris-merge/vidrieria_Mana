@@ -1,0 +1,137 @@
+body{
+    background: whitesmoke;
+    border: 2px solid blue;
+    padding: 0%;
+    margin: 0%;
+}
+/*estilo del navbar  de la pagina principal*/
+#cont-nav{
+background: rgb(11, 74, 95);
+color: red;
+}
+/*img del logo posionada en la esquinza superion izquierda del navbar*/
+#logo{
+    width: 100px;
+    height: 69px;
+    border-radius: 25px;
+}
+/*mover los ul con los a hacia la derecha*/
+#right-item {
+    /*border:15px ;*/
+    margin: auto 0.05em ;
+    padding-right:  10px;
+    transform: translate(529px,0px);
+}
+ul{
+    width: auto;
+    height: 100%;
+    
+}
+/*hacer que sea un bloque ek ul y li*/
+ul,li ,a{
+    display: block;
+}
+ul li a:hover{
+    background: blanchedalmond;
+    color: black;
+}
+
+/*fin del estilo del navbar  de la pagina principal*/
+/*diseño del carrucel*/
+/*seccion del carrucel*/
+#seccion-carrucel{
+    padding: 10px;
+    /*border: 10px solid yellow;*/
+    margin: 10px auto;
+    width: auto;
+    height: 280px;
+    /*background: greenyellow;*/
+
+}
+/*diseño del div  carrucel*/
+#carrucel{
+    /*border: 2px solid rgb(7, 1, 1);*/
+    width: 100%;
+    height: 300px;
+    background-color: transparent;
+    margin: 0.1em auto;
+}
+/*escala de las img del carrucel*/
+#item-carrucel{
+    transform: translate(550px,50px);
+}
+/*fin de diseño del carrucel
+/*diseño de video */
+/*seccion del video*/
+#seccion-video{
+   /* background: #F1ECEB;*/
+   
+    height: 408px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    /*border: 30px solid purple;*/
+    
+}
+#contenedor-videos{
+    /*border: 25px solid orange;*/
+    height: 400px;
+    width: 610px;
+}
+/*escala de iframe*/
+#Video{
+    height: 400px;
+    width: 600px;
+   /* border: 25px solid brown;*/
+}
+/*contendor de la img del empreso*/
+#contenedor-img{
+    height: 400px;
+    width: 600px;
+    /*margin: -405px 690px;*/
+    margin-left: 150px;
+    margin-top: -10px;
+}
+/*img de la empresa*/
+#empresa-img{
+    width: 540px;
+    height: 400px;
+    /*border: 1px solid red;
+    transform: translate(650px,-425px);*/
+    background: rgb(15, 2, 189);
+}
+/*fin del diseño de video */
+/*diseño de la parte de mision y vision*/
+#mision, #vision{
+   /* border: 2px solid black;*/
+    width: 500px;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 25px;
+    border: 1px solid black;
+    /*background: tomato;*/
+}
+/*#seccion-mision-vision{
+   /* border: 25px soli brown;*/
+   /* background: pink;/*
+}*/
+#article-mision-vision{
+    margin: auto 120px;
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-template-columns:repeat( 3,1fr);
+    /*border: 15px soli yellowgreen;*/
+   /* background: grey;*/
+}
+/*contenedor de la articulo de la mision y vision*/
+/*#seccion-mision-vision{
+    background: red;
+}
+*/
+/*diseño del footer*/
+#footer{
+    background: rgb(11, 74, 95);
+}
