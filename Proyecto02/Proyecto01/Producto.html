@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+    <link rel="stylesheet" href="css/materialize.css">
+    <!-- referencia la css  personalizado-->
+    <link rel="stylesheet" href="css/producto.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<script>
+    $(document).ready(function(){
+    $('select').formSelect();
+  });
+</script>
+<body>
+    <!-- -->
+	<!-- seccion del nav bar-->
+	<div>
+		<nav>
+			<div id="contenedor-ul" class="nav-wrapper">
+				<ul id="cont-li" class="left">
+					
+					<li><img id="logo" src="imgs/Vidriria_Mana.jpg" alt="logo"></li>
+					<div id="item-li">
+					<li id="right-item"><a href="index.html"><strong>Inicio</strong></a></li>
+					<li id="right-item"><a href="Nosotros.html"><strong>Nosotros</strong></a></li>
+					<li id="right-item"><a href="#"><strong>Contacto</strong></a></li>
+					<li id="right-item"><a href="Producto.html"><strong>Producto</strong> </a></li>
+					<li id="right-item"><a href="#"><strong>Catalogo</strong></a></li>
+				</div>
+				</ul>
+			</div>
+		</nav>
+
+	</div>
+    <!--Contendio -->
+    <section id="content_produc">
+            <h1 class="titulo"><strong> Bienevenidos A Vidrieria Mana</strong></h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td class="title">Productos</td>
+                        <td class="title">Tipo</td>
+                        <td class="title">Precio</td>  
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td>Espejos</td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+    </section>
+    <div class="input-field col s10">
+        <select>
+            <option value="" >tipos de espejo</option>
+            <option value="1">Espejo1</option>
+            <option value="1">Espejo2</option>
+            <option value="1">Espejo3</option>
+        </select>
+        <label >Espejos</label>
+    </div>
+</body>
+
+<script src="js/materialize.js"></script>
+</html>

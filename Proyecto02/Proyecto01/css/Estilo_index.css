@@ -48,24 +48,21 @@ ul li a:hover{
 /*diseño del carrucel*/
 /*seccion del carrucel*/
 #seccion-carrucel{
-    padding: 25px;
-    margin: 10px 250px;
-    width: auto;
+    padding: 20px;
+    margin: 0px auto;
+    width: 100%;
     height: 290px;
+    background: #CFB2B2;
 
 }
 /*diseño del div  carrucel*/
 #carrucel{
     /*border: 2px solid rgb(7, 1, 1);*/
-    width: 100%;
+    width: 600px;
     height: 300px;
-    background-color: transparent;
-    margin: 0.1em 60px;
+    margin: 0em 350px;
 }
-/*escala de las img del carrucel*/
-#item-carrucel{
-    transform: translate(550px,50px);
-}
+
 /*fin de diseño del carrucel
 /*diseño de video */
 /*seccion del video*/
@@ -96,7 +93,7 @@ ul li a:hover{
     width: 600px;
     /*margin: -405px 690px;*/
     margin-left: 150px;
-    margin-top: -10px;
+    margin-top:  -1px;
 }
 /*img de la empresa*/
 #empresa-img{
