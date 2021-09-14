@@ -1,0 +1,99 @@
+body{
+    background: whitesmoke;
+    border: 2px solid blue;
+    padding: 0%;
+    margin: 0%;
+}
+/*aplicando fondo a nav bar contendor primario-*/
+#contenedor-ul{
+ background: rgb(11, 74, 95);
+}
+/*contennedor de todos los li con la img*/
+#cont-li{
+ 
+ width: 1330px;
+ height: 50px;
+
+}
+/*img del logo posionada en la esquinza superion izquierda del navbar*/
+#logo{
+    width: 100px;
+    height: 69px;
+    border-radius: 25px;
+}
+/*diseño de caba uno de los items*/
+#right-item {
+   height:  50px;
+   margin: 0px auto;
+    display: block;
+}
+/*este es para mover los item hacia la derecha*/
+#item-li{
+    display: flex;
+    margin: 0px 1090px;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+}
+/* fin de este es para mover los item hacia la derecha*/
+/*hacer que sea un bloque ek ul y li*/
+
+ul li a:hover{
+    display: block;
+    background: blanchedalmond;
+    color: black;
+}
+
+/*fin del estilo del navbar  de la pagina principal*/
+/*dar estilo y diselo al navegador de los tabs*/
+ #cont_ul {
+    color:rgb(15, 14, 14);
+    background: rgb(243, 212, 171);
+    margin: 0.5em auto;
+    
+}
+#t1{
+    display: block;
+    color: rgb(19, 19, 19);
+}
+#t2{
+    display: block;
+    color: rgb(19, 19, 19);
+}
+#t3{
+    display: block;
+    color: rgb(19, 19, 19);
+}
+#t4{
+    display: block;
+    color: rgb(19, 19, 19);
+}
+/*vamos a oculatar el tabs de los div para mostrar solo un categoria*/
+/*estilo para cuando pase el mouse ensima de los tabs cambien de color y fondo*/
+#t1:hover{
+display: block;
+background: rgb(196, 189, 224);
+}
+#t2:hover{
+display: block;
+background: rgb(196, 189, 224);
+}
+#t3:hover{
+display: block;
+background: rgb(196, 189, 224);
+}
+#t4:hover{
+display: block;
+background: rgb(196, 189, 224);
+}
+/*estilo para cuando pase el mouse ensima de los tabs cambien de color y fondo*/
+#categoria{
+    display: none;
+}
+#test1,#test2,#test3{
+display: none;
+}
+/*mostrar la todas las categorias */
+#Catalogo, #test4{
+    display: block;
+}

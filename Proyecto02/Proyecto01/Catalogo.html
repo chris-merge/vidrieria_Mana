@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/Catalogo.css">
+</head>
+<body>
+    <!-- -->
+	<!-- seccion del nav bar-->
+	<div>
+		<nav>
+			<div id="contenedor-ul" class="nav-wrapper">
+				<ul id="cont-li" class="left">
+					
+					<li><img id="logo" src="imgs/Vidriria_Mana.jpg" alt="logo"></li>
+					<div id="item-li">
+					<li id="right-item"><a href="index.html"><strong>Inicio</strong></a></li>
+					<li id="right-item"><a href="Nosotros.html"><strong>Nosotros</strong></a></li>
+					<li id="right-item"><a href="Contacto.html"><strong>Contacto</strong></a></li>
+					<li id="right-item"><a href="Producto.html"><strong>Producto</strong> </a></li>
+					<li id="right-item"><a href="Catalogo.html"><strong>Catalogo</strong></a></li>
+				</div>
+				</ul>
+			</div>
+		</nav>
+
+	</div>
+    <!-- seccion del nav bar-->
+    <!-- TABS DE CATALOGOS-->
+    <section id="contenedor_catalogo">
+        <div class="row">
+            <div  class="col s12">
+                <ul id="cont_ul" class="tabs">
+                    <li id="li" class="tab col s3 "><a class="link_tabs" id="t1" href="#test1" onclick="MostrarTabs(this.id)">test 1</a></li>
+                    <li id="li" class="tab col s3 "><a class="link_tabs" id="t2" href="#test2" onclick="MostrarTabs(this.id)">test 2</a></li>
+                    <li id="li" class="tab col s3 "><a class="link_tabs" id="t3" href="#test3" onclick="MostrarTabs(this.id)">test 3</a></li>
+                    <li id="li" class="tab col s3 "><a class="link_tabs" id="t4" href="#test4" onclick="OcultarTabs()">Vista General</a></li> 
+                </ul>
+            </div>
+        </div>
+    </section>
+    <article id="Catalogo">
+            <div id="test4" class="col s12">Vista General</div>
+    </article>
+    <article id="categoria">
+            <div id="test1" class="col s12"> funciona 1</div>
+            <div id="test2" class="col s12"> funciona 2</div>
+            <div id="test3" class="col s12"> funciona 3</div>
+    </article>
+</body>
+<script src="js/Mostrar_tabs_categoria_producto.js"></script>
+</html>
