@@ -39,4 +39,5 @@ function OcultarTabs(){
     document.getElementById("test3").style.display="none";
     document.getElementById("Catalogo").style.display="block";
     document.getElementById("test4").style.display="block";
+    
 };

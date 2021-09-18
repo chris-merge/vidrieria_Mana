@@ -22,7 +22,7 @@
 					<li id="right-item"><a href="index.html"><strong>Inicio</strong></a></li>
 					<li id="right-item"><a href="Nosotros.html"><strong>Nosotros</strong></a></li>
 					<li id="right-item"><a href="Contacto.html"><strong>Contacto</strong></a></li>
-					<li id="right-item"><a href="Producto.html"><strong>Producto</strong> </a></li>
+					<!-- <li id="right-item"><a href="Producto.html"><strong>Producto</strong> </a></li>-->
 					<li id="right-item"><a href="Catalogo.html"><strong>Catalogo</strong></a></li>
 				</div>
 				</ul>
@@ -36,22 +36,61 @@
         <div class="row">
             <div  class="col s12">
                 <ul id="cont_ul" class="tabs">
-                    <li id="li" class="tab col s3 "><a class="link_tabs" id="t1" href="#test1" onclick="MostrarTabs(this.id)">test 1</a></li>
-                    <li id="li" class="tab col s3 "><a class="link_tabs" id="t2" href="#test2" onclick="MostrarTabs(this.id)">test 2</a></li>
-                    <li id="li" class="tab col s3 "><a class="link_tabs" id="t3" href="#test3" onclick="MostrarTabs(this.id)">test 3</a></li>
-                    <li id="li" class="tab col s3 "><a class="link_tabs" id="t4" href="#test4" onclick="OcultarTabs()">Vista General</a></li> 
-                </ul>
-            </div>
+                    <li id="li" class="tab col s3 "><a class="link_tabs" id="t1" href="#" onclick="MostrarTabs(this.id)">VIDRIOS MONOLÍTICOS</a></li>
+                    <li id="li" class="tab col s3 "><a class="link_tabs" id="t2" href="#" onclick="MostrarTabs(this.id)">VIDRIOS LAMINADOS</a></li>
+                    <li id="li" class="tab col s3 "><a class="link_tabs" id="t3" href="#" onclick="MostrarTabs(this.id)">VIDRIOS CON CÁMARA </a></li>
+                    <li id="li" class="tab col s3 "><a class="link_tabs" id="t4" href="#" onclick="OcultarTabs()">Vista General</a></li> 
+                </ul></div>
         </div>
     </section>
     <article id="Catalogo">
-            <div id="test4" class="col s12">Vista General</div>
+            <div id="test4" class="col s12">
+                <div id="tab_VIDRIOS_MONOLÍTICOS"></div>
+                <div id="tab_VIDRIOS_LAMINADOS"></div>
+                <div id="tab_VIDRIOS_CÁMARA"></div>
+            </div>
     </article>
     <article id="categoria">
-            <div id="test1" class="col s12"> funciona 1</div>
-            <div id="test2" class="col s12"> funciona 2</div>
-            <div id="test3" class="col s12"> funciona 3</div>
+            <div id="test1" class="col s12"> 
+               <div class="div-tabs" id="VIDRIOS_MONOLÍTICOS">
+                   <h4>VIDRIOS MONOLÍTICOS</h4>
+                   <p>Son vidrios sencillos que se suelen instalar en ventanas de poca calidad, son acristalamientos obsoletos. Tienen pocas propiedades aislantes por lo que no se recomienda su instalación en las ventanas externas de casas y edificios.</p>
+                   <button id="btn_card" class="btn ligh blue" onclick="MostrarImg()" >Mostrar</button>
+                   <div id="card_contenedor">
+                    <span id="btn_close" onclick="CLOSE()"> <i class="material-icons">close</i></span>
+                    <img id="img1" alt="Monolitico">
+                    </div>
+               </div>
+            </div>
+            <div class="div-tabs" id="test2" class="col s12">
+                <div id="VIDRIOS_LAMINADOS">
+                    <h4>VIDRIOS LAMINADOS</h4>
+                    <P>Resultado de la unión de dos o más planchas de vidrio. Entre las planchas de vidrio se intercalan láminas de PVB (polivinilo butiral), logrando conferir al vidrio mayor resistencia. Con esta combinación se consiguen vidrios de seguridad o blindados. Este tipo de vidrios han de combinarse siempre con herrajes de seguridad</P>
+                    <div id="card_contenedor">
+                        <span id="btn_close" onclick="CLOSE()"><i class="material-icons">close</i></span>
+                    </div>
+                    <button id="btn_card" onclick="MostrarImg()" class="btn ligh blue">Mostrar</button>
+                </div>
+                </div>
+            <div class="div-tabs" id="test3" class="col s12">
+                <div id="VIDRIOS_CÁMARA">
+                    <h4>VIDRIOS CÁMARA</h4>
+                    <p>Los vidrios con cámara o de doble acristalamiento son vidrios formados por dos hojas separadas por una cámara intermedia de aire deshidratado sellada herméticamente que sirve para aumentar el aislamiento térmico. La cámara de aire reduce la transferencia de calor entre el exterior y el interior .
+                        En determinadas ocasiones en las que se requiera un nivel superior de aislamiento térmico, se recomienda la instalación de vidrios triples o vidrios con triple acristalamiento, en los que se incorpora una hoja adicional de vidrio generando dos cámaras de aire en vez de una.
+                        Los vidrios con cámara se pueden combinar con otras funcionalidades de aislamiento acústico reforzado, control solar, baja emisividad, refuerzos de seguridad, antisuciedad, etc.
+                        D. VIDRIOS TEMPLADOS</p>
+                        <div id="card_contenedor">
+                            <span id="btn_close" onclick="CLOSE()"><i class="material-icons">close</i></span>
+                        </div>
+                        <button id="btn_card"  class="btn ligh blue" onclick="MostrarImg()">Mostrar</button>
+                </div>
+            </div>
     </article>
 </body>
+<!--referencias de script para mostrar tabs y ocultarlo-->
 <script src="js/Mostrar_tabs_categoria_producto.js"></script>
+<!--referencias a tabs para insertar todos los taba a la vista general-->
+<script src="js/Mostrar_todas_Categorias_Vidrio.js"></script>
+<!--Mostrar el div modal para versializar la img-->  
+<script src="js/Modal_Card.js"></script>
 </html>

@@ -36,7 +36,7 @@
         <h1>Nuestros Contactos</h1>
     </div>
     <div class="row">
-    <form action="" class="col s12">
+    <form method="post" class="col s12">
                     <div class="row">
                     <div class="input-field col s6">
                       <i class="material-icons prefix">account_circle</i>
@@ -68,13 +68,16 @@
                         </div>
           </div>
         </form>
+    <?php 
+    require("email.php");
+    ?>
       </div>
     <div class="contendor_contactos">
         <div class="red1" ><a href="#"id="link_red" class="waves-effect blue lighten-3 btn"><h3>FACEBOOK</h3></a></div>
         <div class="red2" ><a href="#"id="link_red" class="waves-effect blue lighten-3 btn"><h3>WHATSAPP</h3></a></div>
         <div class="red3" ><a href="#"id="link_red" class="waves-effect blue lighten-3 btn"><h3>INSTAGRAM</h3></a></div>
     </div>
-
+    
 </body>
 <script src="js/materialize.js"></script>
 </html>

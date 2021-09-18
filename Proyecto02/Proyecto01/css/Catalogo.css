@@ -84,7 +84,7 @@ background: rgb(196, 189, 224);
 }
 #t4:hover{
 display: block;
-background: rgb(196, 189, 224);
+background: rgb(102, 98, 117);
 }
 /*estilo para cuando pase el mouse ensima de los tabs cambien de color y fondo*/
 #categoria{
@@ -96,4 +96,49 @@ display: none;
 /*mostrar la todas las categorias */
 #Catalogo, #test4{
     display: block;
+}
+/*Diseño de los contenedores de los div de tab*/
+ .div-tabs{
+   
+    margin: 0.2em auto;
+    text-align: justify;
+}
+/*centrar  h4 de div espesificos*/
+.div-tabs h4{
+    text-align: center;
+}
+/*mostrar un modal propio*/
+#card_contenedor
+{
+    display: none;
+    border: 2px solid rgb(141, 24, 24);
+    background: rgb(201, 223, 201);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    float: left;
+    opacity: transparent;
+}
+/*boton para mostrar el el card*/
+#btn_close{
+    color: rgb(19, 18, 18);
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/*img de la ventana modal*/
+#img1{
+    border: 10px solid red;
+    animation-name: Move;
+    animation-duration: 4s;
+    animation-direction:alternate;
+    animation-fill-mode:forwards;
+}
+@keyframes Move {
+   from {margin: 0.2em 0;}
+   to {margin-left: 400px;}
 }

@@ -1,0 +1,22 @@
+.row{
+    border: 2px solid red;
+    margin: 0.2em 200px;
+}
+#contenedor-card{
+    margin: 0.2em 205px;
+    border: 25px solid rgb(53, 53, 48) ;
+}
+#Modal_Dev{
+    display: none;
+    position: fixed;
+    background: rgb(202, 193, 193);
+    border: 2px solid rgb(141, 24, 24);
+    background: rgb(201, 223, 201);
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    float: left;
+    opacity: transparent;
+}
